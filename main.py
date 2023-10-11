@@ -101,7 +101,7 @@ while True:
             
             # todo: Add your music folder path here
             
-            musicFolder = r"D:\Projects\OpenAI Desktop Assistant(PYTHON)\music"                   # Specified path for music folder
+            musicFolder = r"D:\Projects\Open AI Desktop Assistant (PYTHON)"                   # Specified path for music folder
             musicFiles = []
             for file in os.listdir(musicFolder):                                                  # os.listdir retrives all files from the specified directory
                 if file.endswith(".mp3"):
